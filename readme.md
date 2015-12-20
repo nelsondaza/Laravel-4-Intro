@@ -62,7 +62,8 @@ Set the right version of PHP
 
 
 
-### This ones wont be used but good to know :smirk:
+
+### _This ones wont be used but always good to know :smirk:_
 
 #### Debugging Laravel Applications with PhpStorm
 
