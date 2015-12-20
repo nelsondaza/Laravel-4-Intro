@@ -47,19 +47,19 @@ Set the right version of PHP
   * It shows 43 commands added...
   * In the app/config/app.php file, add 'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider' under the providers element.
 
-3. [Generate the PHPDoc Helper File using Artisan](https://confluence.jetbrains.com/display/PhpStorm/Laravel+Development+using+PhpStorm#LaravelDevelopmentusingPhpStorm-3.GeneratethePHPDocHelperFileusingArtisan)
+
+### Command Line Tool Support for Artisan and Composer
+
+1. [Add command line support](https://confluence.jetbrains.com/display/PhpStorm/Laravel+Development+using+PhpStorm#LaravelDevelopmentusingPhpStorm-CommandLineToolSupportforArtisanandComposer)
+2. [Generate the PHPDoc Helper File using Artisan](https://confluence.jetbrains.com/display/PhpStorm/Laravel+Development+using+PhpStorm#LaravelDevelopmentusingPhpStorm-3.GeneratethePHPDocHelperFileusingArtisan)
 
   * Tools | Run Command... menu (Ctrl+Shift+X or CMD+Shift+X on Mac OS X)
   ```shell 
   > artisan clear-compiled
   > artisan ide-helper:generate
   ```
-  * It shows some error trying to connect to DB but its ok.
+  * It shows some errors trying to connect to DB but it is ok.
 
-
-### Command Line Tool Support for Artisan and Composer
-
-1. [Add command line support](https://confluence.jetbrains.com/display/PhpStorm/Laravel+Development+using+PhpStorm#LaravelDevelopmentusingPhpStorm-CommandLineToolSupportforArtisanandComposer)
 
 
 ### This ones wont be used but good to know :smirk:
