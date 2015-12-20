@@ -44,10 +44,17 @@ Set the right version of PHP
 2. [Install the Laravel IDE Helper](https://confluence.jetbrains.com/display/PhpStorm/Laravel+Development+using+PhpStorm#LaravelDevelopmentusingPhpStorm-2.InstalltheLaravelIDEHelper)
 
   * _Installed version **v1.11.6** because of the Laravel **4.2**_
+  * It shows 43 commands added...
   * In the app/config/app.php file, add 'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider' under the providers element.
 
 3. [Generate the PHPDoc Helper File using Artisan](https://confluence.jetbrains.com/display/PhpStorm/Laravel+Development+using+PhpStorm#LaravelDevelopmentusingPhpStorm-3.GeneratethePHPDocHelperFileusingArtisan)
-  * It show 43 commands added...
+
+ * Tools | Run Command... menu (Ctrl+Shift+X or CMD+Shift+X on Mac OS X)
+ * ```shell 
+  > artisan clear-compiled
+  > artisan ide-helper:generate
+  ```
+ * It shows some error trying to connect to DB but its ok.
 
 
 ### Command Line Tool Support for Artisan and Composer
