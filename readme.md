@@ -25,7 +25,7 @@ Set the right version of PHP
   2.1 If not exist, have to create:
     2.1.1 PHP 5.6
     2.1.2 /Applications/AMPPS/php/bin/php *(My system path to php 5.6)*
-	
+
 
 ### Languages & Frameworks > PHP > Composer
 1. [Ensure Composer is initialized](https://confluence.jetbrains.com/display/PhpStorm/Laravel+Development+using+PhpStorm#LaravelDevelopmentusingPhpStorm-1.EnsureComposerisinitialized)
