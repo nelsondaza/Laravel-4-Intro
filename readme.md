@@ -61,6 +61,14 @@ Set the right version of PHP
   * It shows some errors trying to connect to DB but it is ok.
 
 
+### Start the server application using artisan serve
+PHPStorm has its own terminal that opens directly in the project folder.
+    
+```shell
+> php artisan serve
+**Laravel development server started on http://localhost:8000**
+```
+
 ______________________________________________________________
 
 ### _This ones wont be used but always good to know :smirk:_
