@@ -14,7 +14,8 @@ Creating the project.
 
 
 ## PHPStorm
-See PHPStorm [site](https://www.jetbrains.com/phpstorm/) :muscle:.
+See [PHPStorm site :muscle:](https://www.jetbrains.com/phpstorm/).
+Open the project using PHPStorm, then...
 
 ### Other Settings > Laravel Plugin 
 Activate plugin for Laravel
@@ -42,7 +43,7 @@ Set the right version of PHP
   
 2. [Install the Laravel IDE Helper](https://confluence.jetbrains.com/display/PhpStorm/Laravel+Development+using+PhpStorm#LaravelDevelopmentusingPhpStorm-2.InstalltheLaravelIDEHelper)
 
-  * _Installed version v1.11.6 because of the Laravel **4.2**_
+  * _Installed version **v1.11.6** because of the Laravel **4.2**_
 
 3. [Generate the PHPDoc Helper File using Artisan](https://confluence.jetbrains.com/display/PhpStorm/Laravel+Development+using+PhpStorm#LaravelDevelopmentusingPhpStorm-3.GeneratethePHPDocHelperFileusingArtisan)
 
@@ -50,7 +51,7 @@ Set the right version of PHP
 ### Command Line Tool Support for Artisan and Composer
 
 1. [Add command line support](https://confluence.jetbrains.com/display/PhpStorm/Laravel+Development+using+PhpStorm#LaravelDevelopmentusingPhpStorm-CommandLineToolSupportforArtisanandComposer)
-
+  * It show 43 commands added...
 
 ### This ones wont be used but good to know
 
