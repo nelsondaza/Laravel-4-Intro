@@ -14,7 +14,7 @@ Creating the project.
 
 
 ## PHPStorm
-See [PHPStorm site :muscle:](https://www.jetbrains.com/phpstorm/).
+See [PHPStorm site :muscle:](https://www.jetbrains.com/phpstorm/). 
 Open the project using PHPStorm, then...
 
 ### Other Settings > Laravel Plugin 
@@ -61,7 +61,7 @@ Set the right version of PHP
   * It shows some errors trying to connect to DB but it is ok.
 
 
-
+______________________________________________________________
 
 ### _This ones wont be used but always good to know :smirk:_
 
