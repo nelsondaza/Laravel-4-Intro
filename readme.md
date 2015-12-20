@@ -75,4 +75,3 @@ Set the right version of PHP
 #### Database Support in PhpStorm
 
 1. [Data Sources & Drivers](https://confluence.jetbrains.com/display/PhpStorm/Laravel+Development+using+PhpStorm#LaravelDevelopmentusingPhpStorm-DatabaseSupportinPhpStorm)
-
