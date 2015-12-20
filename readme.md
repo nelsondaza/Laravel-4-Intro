@@ -49,12 +49,12 @@ Set the right version of PHP
 
 3. [Generate the PHPDoc Helper File using Artisan](https://confluence.jetbrains.com/display/PhpStorm/Laravel+Development+using+PhpStorm#LaravelDevelopmentusingPhpStorm-3.GeneratethePHPDocHelperFileusingArtisan)
 
- * Tools | Run Command... menu (Ctrl+Shift+X or CMD+Shift+X on Mac OS X)
-```shell 
-> artisan clear-compiled
-> artisan ide-helper:generate
-```
- * It shows some error trying to connect to DB but its ok.
+  * Tools | Run Command... menu (Ctrl+Shift+X or CMD+Shift+X on Mac OS X)
+  ```shell 
+  > artisan clear-compiled
+  > artisan ide-helper:generate
+  ```
+  * It shows some error trying to connect to DB but its ok.
 
 
 ### Command Line Tool Support for Artisan and Composer
