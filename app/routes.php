@@ -13,5 +13,33 @@
 
 Route::get('/', function()
 {
+
+	if( false ) {
+		\Illuminate\Support\Facades\Schema::create('books',function( $newTable ){
+			/**
+			 * @var  $newTable \Illuminate\Database\Schema\Blueprint
+			 */
+
+			$newTable->increments('id');
+			$newTable->string('writer');
+			$newTable->string('title',500);
+			$newTable->text('description');
+			$newTable->date('published');
+			$newTable->integer('copies');
+			$newTable->timestamps();
+
+		});
+	}
+
+	\Illuminate\Support\Facades\Schema::table('books',function( $table ){
+		/**
+		 * @var  $table \Illuminate\Database\Schema\Blueprint
+		 */
+		$table->boolean('in_store');
+		$table->dropColumn('copies');
+
+	});
+
+
 	return View::make('hello');
 });

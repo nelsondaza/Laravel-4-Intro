@@ -55,11 +55,11 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'forge',
-			'username'  => 'forge',
-			'password'  => '',
+			'database'  => 'laravel-4-intro',
+			'username'  => 'root',
+			'password'  => 'mysql',
 			'charset'   => 'utf8',
-			'collation' => 'utf8_unicode_ci',
+			'collation' => 'utf8_general_ci',
 			'prefix'    => '',
 		),
 
